@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CCBReaderLoad	.\CCBReaderLoad.lua	/^function CCBReaderLoad(strFilePath,proxy,bSetOwner,strOwnerName)$/;"	f
+CCBuilderReaderLoad	.\CCBReaderLoad.lua	/^function CCBuilderReaderLoad(strFilePath,proxy,owner)$/;"	f
+CustomPop 	.\UI\CommonUI\CustomPop.lua	/^CustomPop = class("CustomPop", function()$/;"	f
+CustomPop:close	.\UI\CommonUI\CustomPop.lua	/^function CustomPop:close(sender)$/;"	f
+CustomPop:init	.\UI\CommonUI\CustomPop.lua	/^function CustomPop:init()$/;"	f
+CustomPop:onTouch	.\UI\CommonUI\CustomPop.lua	/^function CustomPop:onTouch(event, x, y)$/;"	f
+CustomPop:show	.\UI\CommonUI\CustomPop.lua	/^function CustomPop:show(str)$/;"	f
+LayerLogin	.\UI\LayerLogin\LayerLogin.lua	/^function LayerLogin()$/;"	f
+M.getEffectsVolume	.\AudioEngine.lua	/^function M.getEffectsVolume()$/;"	f
+M.getMusicVolume	.\AudioEngine.lua	/^function M.getMusicVolume()$/;"	f
+M.isMusicPlaying	.\AudioEngine.lua	/^function M.isMusicPlaying()$/;"	f
+M.pauseAllEffects	.\AudioEngine.lua	/^function M.pauseAllEffects()$/;"	f
+M.pauseEffect	.\AudioEngine.lua	/^function M.pauseEffect(handle)$/;"	f
+M.pauseMusic	.\AudioEngine.lua	/^function M.pauseMusic()$/;"	f
+M.playEffect	.\AudioEngine.lua	/^function M.playEffect(filename, isLoop)$/;"	f
+M.playMusic	.\AudioEngine.lua	/^function M.playMusic(filename, isLoop)$/;"	f
+M.preloadEffect	.\AudioEngine.lua	/^function M.preloadEffect(filename)$/;"	f
+M.preloadMusic	.\AudioEngine.lua	/^function M.preloadMusic(filename)$/;"	f
+M.resumeAllEffects	.\AudioEngine.lua	/^function M.resumeAllEffects(handle)$/;"	f
+M.resumeEffect	.\AudioEngine.lua	/^function M.resumeEffect(handle)$/;"	f
+M.resumeMusic	.\AudioEngine.lua	/^function M.resumeMusic()$/;"	f
+M.rewindMusic	.\AudioEngine.lua	/^function M.rewindMusic()$/;"	f
+M.setEffectsVolume	.\AudioEngine.lua	/^function M.setEffectsVolume(volume)$/;"	f
+M.setMusicVolume	.\AudioEngine.lua	/^function M.setMusicVolume(volume)$/;"	f
+M.stopAllEffects	.\AudioEngine.lua	/^function M.stopAllEffects()$/;"	f
+M.stopEffect	.\AudioEngine.lua	/^function M.stopEffect(handle)$/;"	f
+M.stopMusic	.\AudioEngine.lua	/^function M.stopMusic(isReleaseData)$/;"	f
+M.unloadEffect	.\AudioEngine.lua	/^function M.unloadEffect(filename)$/;"	f
+M.willPlayMusic	.\AudioEngine.lua	/^function M.willPlayMusic()$/;"	f
+SceneUpdate	.\main.lua	/^function SceneUpdate()$/;"	f
+__G__TRACKBACK__	.\main.lua	/^function __G__TRACKBACK__(msg)$/;"	f
+__newindex 	.\AudioEngine.lua	/^    __newindex =  function (t ,k ,v)$/;"	f
+buzhen	.\UI\buzhen\buzhen.lua	/^function buzhen()$/;"	f
+class	.\extern.lua	/^function class(classname, super)$/;"	f
+cls 	.\extern.lua	/^            cls = {ctor = function() end}$/;"	f
+cls.ctor    	.\extern.lua	/^        cls.ctor    = function() end$/;"	f
+cls.new	.\extern.lua	/^        function cls.new(...)$/;"	f
+if "function" 	.\CCBReaderLoad.lua	/^                if "function" == type(ccb[documentControllerName][cbName]) then$/;"	f
+if "function" 	.\CCBReaderLoad.lua	/^            if "function" == type(owner[callbackName]) then$/;"	f
+if superType 	.\extern.lua	/^    if superType == "function" or (super and super.__ctype == 1) then$/;"	f
+if superType ~	.\extern.lua	/^    if superType ~= "function" and superType ~= "table" then$/;"	f
+main	.\main.lua	/^local function main()$/;"	f
+menuItemCallbackLogin	.\UI\LayerLogin\LayerLogin.lua	/^    local function menuItemCallbackLogin(sender)$/;"	f
+performWithDelay	.\extern.lua	/^function performWithDelay(node, callback, delay)$/;"	f
+schedule	.\extern.lua	/^function schedule(node, callback, delay)$/;"	f
+zhenpin	.\UI\LayerLogin\LayerLogin.lua	/^local function zhenpin(layer)$/;"	f
