@@ -2,8 +2,14 @@
 #define __SRANDOM_H__
 #include "cocos2d.h"
 
-class SRandom
+NS_CC_BEGIN
+
+class SRandom : public CCObject
 {
+public:
+
+	SRandom();
+	virtual ~SRandom();
 public:
 	double nextDouble();
 
@@ -30,4 +36,6 @@ private:
 	static const long long ADDEND		= 0xBLL;
 	static const long long MASK			= (1LL << 48) - 1LL;
 };
+
+NS_CC_END
 #endif

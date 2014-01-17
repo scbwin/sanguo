@@ -1,5 +1,14 @@
 #include "SRandom.h"
 
+NS_CC_BEGIN
+SRandom::SRandom()
+{
+}
+
+SRandom::~SRandom()
+{
+}
+
 double SRandom::nextDouble()
 {
 	return (((long long) (this->next(26)) << 27) + this->next(27))
@@ -68,3 +77,5 @@ int SRandom::next(int bits)
 	this->rnd = ((this->rnd * SRandom::MULTIPLIER) + SRandom::ADDEND) & SRandom::MASK;
 	return (int)(((unsigned long long)(this->rnd)) >> (48 - bits));
 }
+
+NS_CC_END

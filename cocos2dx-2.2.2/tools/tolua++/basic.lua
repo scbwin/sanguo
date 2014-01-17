@@ -203,6 +203,10 @@ local CCObjectTypes = {
     "CCScrollView",
     "CCTableViewCell",
     "CCTableView",
+	"CCComponent",
+-- custom lua bind start
+	"SRandom",
+-- custom lua bind end
 }
 
 -- register CCObject types
@@ -296,6 +300,7 @@ extern "C" {
 #include "CCLuaEngine.h"
 #include "SimpleAudioEngine.h"
 #include "cocos-ext.h"
+#include "..\..\..\projects\sanguo\utils\SRandom.h"
 
 using namespace cocos2d;
 using namespace cocos2d::extension;

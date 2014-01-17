@@ -1,6 +1,8 @@
 require "luascripts/UI/LayerLogin/LayerLogin"
 require "luascripts/UI/buzhen/buzhen.lua"
 require "luascripts/UI/Battle/BattleUI.lua"
+require "luascripts/utils/utils.lua"
+require "luascripts/logic/Battle.lua"
 -- for CCLuaEngine traceback
 function __G__TRACKBACK__(msg)
     print("----------------------------------------")
@@ -8,6 +10,9 @@ function __G__TRACKBACK__(msg)
     print(debug.traceback())
     print("----------------------------------------")
 end
+
+
+
 function SceneUpdate()
 end
 local function main()

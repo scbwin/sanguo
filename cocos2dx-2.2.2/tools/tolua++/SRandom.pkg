@@ -1,0 +1,14 @@
+
+class SRandom : public CCObject
+{
+	SRandom();
+	~SRandom();
+	double nextDouble();
+	double nextDouble(double n);
+	double nextDouble(double least, double bound);
+	int nextInt32(int n);
+	int nextInt32(int least, int bound);
+	long long nextInt64(long long n);
+	long long nextInt64(long long least, long long bound);
+	void setSeed(long long seed);
+};

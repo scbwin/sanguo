@@ -14,6 +14,7 @@ typedef enum {
 
 class CCNode : public CCObject
 {
+	void    setZOrder(int zOrder);
     int     getZOrder();
     float   getVertexZ();
     void    setVertexZ(float var);
@@ -106,6 +107,14 @@ class CCNode : public CCObject
     CCPoint convertToWorldSpaceAR(CCPoint nodePoint);
     CCPoint convertTouchToNodeSpace(CCTouch * touch);
     CCPoint convertTouchToNodeSpaceAR(CCTouch * touch);
+	
+	CCComponent* getComponent(const char *pName) const;
+    
+    virtual bool addComponent(CCComponent *pComponent);
+    
+    virtual bool removeComponent(const char *pName);
+    
+    virtual void removeAllComponents();
 
     void removeFromParentAndCleanup(bool cleanup);
     void removeChildByTag(int tag, bool cleanup);
